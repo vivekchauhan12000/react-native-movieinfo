@@ -4,7 +4,7 @@ import { StyleSheet, Text, View,TextInput , ScrollView ,Image} from 'react-nativ
 
 export default function App() {
 
-  const apiurl = "http://www.omdbapi.com/?apikey=5e0ae946";
+  const apiurl = "your api key from http://www.omdbapi.com/";
   const [state,setState]= useState({
     s:"Enter movie",
     results: [],
